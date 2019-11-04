@@ -1,1 +1,2 @@
-# angular-js-quiz-application
+# Angular.js Quiz Application
+

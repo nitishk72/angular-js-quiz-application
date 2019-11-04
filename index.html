@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/angular.min.js"></script>
+    <script src="./assets/js/angular-route.min.js"></script>
+</head>
+
+<body>
+    <div ng-app="quizApp">
+        <div ng-include="'./src/component/navbar.htm'"></div>
+        <div ng-view></div>
+        <div ng-include="'./src/component/footer.htm'"></div>
+    </div>
+    <script>
+        var app = angular.module('quizApp', ["ngRoute"]);
+    </script>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/routing.js"></script>
+</body>
+
+</html>
