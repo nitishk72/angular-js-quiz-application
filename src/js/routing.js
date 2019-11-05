@@ -11,7 +11,8 @@ app.config(function ($routeProvider) {
             controller: "aboutController"
         })
         .when("/quiz", {
-            templateUrl: "src/pages/quiz.html"
+            templateUrl: "src/pages/quiz.html",
+            controller: "allQuizController"
         })
         .when("/settings", {
             templateUrl: "src/pages/settings.html"
@@ -22,8 +23,12 @@ app.config(function ($routeProvider) {
         .when("/login", {
             templateUrl: "src/pages/login.html"
         })
-        .when("/quiz/start", {
-            templateUrl: "src/pages/start.html"
+        .when("/result", {
+            templateUrl: "src/pages/result.html"
+        })
+        .when("/quiz/:quizID", {
+            templateUrl: "src/pages/start.html",
+            controller: "quizController"
         })
         .otherwise({ redirectTo: '/' });
 });
@@ -31,7 +36,25 @@ app.config(function ($routeProvider) {
 app.controller("aboutController", function ($scope, $http) {
     $scope.users = [];
     $http.get("./assets/json/about.json")
-    .then(function(data){
-        $scope.users = data.data;
-    });
-})
+        .then(function (data) {
+            $scope.users = data.data;
+        });
+});
+
+app.controller("allQuizController", function ($scope, $routeParams, $http) {
+    $scope.allQuizResponse = [];
+    $http.get(`./assets/json/quiz/quiz.json`)
+        .then(function (data) {
+            $scope.allQuizResponse = data.data;
+        });
+});
+
+app.controller("quizController", ['$scope', '$routeParams', '$http',
+    function ($scope, $routeParams, $http) {
+        $scope.questionResponse = [];
+        $http.get(`./assets/json/quiz/${$routeParams.quizID}.json`)
+            .then(function (data) {
+                $scope.questionResponse = data.data;
+            });
+    }]
+);
