@@ -3,12 +3,12 @@
     "subject": "Mathematics",
     "response": [
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "20"
+            "question": "What is first 3 digit numner?",
+            "a": "100",
+            "b": "200",
+            "c": "300",
+            "d": "400",
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -16,7 +16,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -24,7 +24,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -32,7 +32,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -40,7 +40,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -48,7 +48,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -56,7 +56,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -64,7 +64,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -72,7 +72,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         },
         {
             "question": "This is question 1 ?",
@@ -80,7 +80,7 @@
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "20"
+            "correct": "a"
         }
     ]
 }
