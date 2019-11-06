@@ -5,32 +5,32 @@
             <div class="card">
                 <div class="card-body">
                     <div>
-                       <b>{{key+1}}: </b> {{value.question}}
+                        <b>{{key+1}}: </b> {{value.question}}
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="question{{key}}Option" value="option1"
-                            id="question{{key}}Option1">
+                            id="question{{key}}Option1" ng-click="validate(key, 'a',value.correct)">
                         <label class="form-check-label" for="question{{key}}Option1">
                             A. {{value.a}}
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="question{{key}}Option" value="option2"
-                            id="question{{key}}Option2">
+                            id="question{{key}}Option2" ng-click="validate(key, 'b',value.correct)">
                         <label class="form-check-label" for="question{{key}}Option2">
                             B. {{value.b}}
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="question{{key}}Option" value="option3"
-                            id="question{{key}}Option3">
+                            id="question{{key}}Option3" ng-click="validate(key, 'c',value.correct)">
                         <label class="form-check-label" for="question{{key}}Option3">
                             C. {{value.c}}
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="question{{key}}Option" value="option4"
-                            id="question{{key}}Option4">
+                            id="question{{key}}Option4" ng-click="validate(key, 'd',value.correct)">
                         <label class="form-check-label" for="question{{key}}Option4">
                             D. {{value.d}}
                         </label>

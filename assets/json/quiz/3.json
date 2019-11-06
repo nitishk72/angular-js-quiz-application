@@ -11,12 +11,12 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
+            "question": "Select Even Number ?",
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "5",
+            "correct": "c"
         },
         {
             "question": "This is question 1 ?",

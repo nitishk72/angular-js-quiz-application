@@ -56,5 +56,8 @@ app.controller("quizController", ['$scope', '$routeParams', '$http',
             .then(function (data) {
                 $scope.questionResponse = data.data;
             });
+        $scope.validate = function (key, option, correct) {
+            console.log({ key, option, correct })
+        }
     }]
 );
