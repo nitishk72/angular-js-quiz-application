@@ -3,15 +3,15 @@
     "subject": "Mathematics",
     "response": [
         {
-            "question": "What is first 3 digit numner?",
-            "a": "100",
-            "b": "200",
-            "c": "300",
-            "d": "400",
-            "correct": "a"
+            "question": "Q1: In what ratio must a grocer mix two varieties of pulses costing Rs. 15 and Rs. 20 per kg respectively so as to get a mixture worth Rs. 16.50 per kg? ",
+            "a": "3:7",
+            "b": "7:8",
+            "c": "9:6",
+            "d": "6:5",
+            "correct": "c"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "In what ratio must water be mixed with milk to gain 16(2/3)% on selling the mixture at cost price?        [LICAAO 2003]",
             "a": "10",
             "b": "20",
             "c": "30",
@@ -19,7 +19,7 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "A milk vendor has two cans of milk. The first contains 25% water and the rest milk. The second contains 50% water. How much milk should he mix from each of the containers so ass to get 12 litres of milk such that the ratio of water to milk 3: 5?",
             "a": "10",
             "b": "20",
             "c": "30",
@@ -27,7 +27,7 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?",
             "a": "10",
             "b": "20",
             "c": "30",
@@ -35,7 +35,7 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "What is the probability of getting a sum 9 from two throws of a dice?",
             "a": "10",
             "b": "20",
             "c": "30",
@@ -43,7 +43,15 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "A and B together have Rs. 1210. If  of A's amount is equal to  of B's amount, how much amount does B have?",
+            "a": "10",
+            "b": "20",
+            "c": "30",
+            "d": "40",
+            "correct": "b"
+        },
+        {
+            "question": "Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?",
             "a": "10",
             "b": "20",
             "c": "30",
@@ -51,36 +59,28 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. In how many ways can it be done?",
             "a": "10",
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "a"
+            "correct": "c"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?",
             "a": "10",
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "a"
+            "correct": "b"
         },
         {
-            "question": "This is question 1 ?",
+            "question": "In how many ways can the letters of the word 'LEADER' be arranged?",
             "a": "10",
             "b": "20",
             "c": "30",
             "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
+            "correct": "d"
         }
     ]
 }

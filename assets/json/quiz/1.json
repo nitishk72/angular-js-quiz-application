@@ -1,6 +1,6 @@
 {
     "name": "Test Name",
-    "subject": "Mathematics",
+    "subject": "English",
     "response": [
         {
             "question": "He did not give up fight even though he was badly bruised.",
@@ -11,76 +11,78 @@
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
+            "question": "We should avoid tranquilizer in order to have a good health",
+            "a": "Tranquilizer should avoided by us in order to have good health.",
+            "b": "Tranquilizer should been avoided by us in order to have a good health. ",
+            "c": "Tranquilizer should be avoid by us in order to have a good health.",
+            "d": "Tranquilizer should be avoided by us in order to have a good health.",
+
+            "correct": "d"
+        },
+        {
+            "question": "His wife upbraided him for his irresponsible handling of family finance.",
+           "a":" He upbraided by his wife for his irresponsible handling of the family finance." ,
+            "b":"He has upbraided by his wife for his irresponsible handling of the family finance.",
+            "c":"He were upbraided by his wife for his irresponsible handling of the family finance.",
+            "correct": "b"
+        },
+        {
+            "question": "She never understood me, whenever I said something."
+,
+            "a": "Whenever I said something, I never understood by her.",
+            "b": "Whenever I said something, I had never understood by her.",
+            "c": "Whenever I said something, I was being never understood by her.",
+            "d": "Whenever I said something I was never understood by her.",
+            "correct": "d"
+        },
+        {
+            "question": "When I am alone, I hear footsteps of my friend in my imagination."
+,
+            "a": "The footsteps of my friend is heard by me when I am alone.",
+            "b": "The footsteps of my friend are heard by me when I am alone.",
+            "c": "The footsteps of my friend was heard by me when I am alone.",
+            "d": "The footsteps of my friend was heard by me when I am alone.",
+            "correct": "b"
+        },
+        {
+            "question": "You need not come unless you want to.",
+            "a": "You don't need to come unless you want to",
+            "b": "You come only when you want to  ",
+            "c": "You come unless you don't want to",
+            "d": "You come unless you don't want to",
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
+            "question": "The man to who I sold my house was a cheat.",
+            "a": "to whom I sell",
+            "b": "who was sold to",
+            "c": "No correction required ",
+            "d": "to whom I sold",
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
+            "question": "They were all shocked at his failure in the competition. ",
+            "a": "were shocked at all",
+            "b": "had all shocked at",
+            "c": "had been all shocked on",
+            "d": "No correction required",
+            "correct": "d"
+        },
+        {
+            "question": "They were all shocked at his failure in the competition.",
+            "a": "were shocked at all",
+            "b": "had all shocked at",
+            "c": "had all shocked by",
+            "d": "had all shocked for",
             "correct": "a"
         },
         {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
-        },
-        {
-            "question": "This is question 1 ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
-            "correct": "a"
+            "question": "The population of Tokyo is greater than that of any other town in the world.",
+            "a": "greatest among any other",
+            "b": "greater than all other",
+            "c": "greater than those of any other",
+            "d": "greater than those of any other",
+            "correct": "d"
         }
     ]
 }
