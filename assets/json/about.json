@@ -3,18 +3,28 @@
         "name":"NITISH",
         "twitter":"nitishk72_",
         "description":"here is some information about me",
-        "designation":"Founder"
+        "designation":"Founder",
+        "image":"nitish.jpg"
     },
     {
-        "name":"NITISH",
+        "name":"SAMPAT",
         "twitter":"nitishk72_",
         "description":"here is some information about me",
-        "designation":"CEO"
+        "designation":"Co-Founder",
+        "image":"sampat.jpg"
     },
     {
-        "name":"NITISH",
+        "name":"JAYANT",
         "twitter":"nitishk72_",
         "description":"here is some information about me",
-        "designation":"CTO"
+        "designation":"CEO",
+        "image":"jayant.jpg"
+    },
+    {
+        "name":"SUKANYA",
+        "twitter":"nitishk72_",
+        "description":"here is some information about me",
+        "designation":"CTO",
+        "image":"suknaya.jpg"
     }
 ]

@@ -3,11 +3,11 @@
     "subject": "Mathematics",
     "response": [
         {
-            "question": "What is first two digit numner ?",
-            "a": "10",
-            "b": "20",
-            "c": "30",
-            "d": "40",
+            "question": "He did not give up fight even though he was badly bruised.",
+            "a": "The fight did not give up by him even though he was badly bruised.",
+            "b": "The fight had not given up by him even though he was badly bruised",
+            "c": "The fight was not given up by him even though he was badly bruised",
+            "d": "The fight was not being given up by him even though he was badly bruised",
             "correct": "a"
         },
         {

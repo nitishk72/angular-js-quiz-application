@@ -1,52 +1,52 @@
 {
     "response": [
         {
-            "name": "Quiz Name",
+            "name": "Mathematics: Probability",
             "file": "1",
-            "description": "This is first quiz"
+            "description": "In this quiz you will learn about the basic of Probabilty and able to analyze your skills"
         },
         {
-            "name": "Quiz Name",
+            "name": "Mathematics: Quadratics Equation",
             "file": "2",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Mathematics: Permutation",
             "file": "3",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Mathematics: Combination",
             "file": "4",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Englist: Verb",
             "file": "5",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "English: Noun",
             "file": "6",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Physics: Rotation",
             "file": "7",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Physics: Vector",
             "file": "8",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Physics: 2D Motion",
             "file": "9",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         },
         {
-            "name": "Quiz Name",
+            "name": "Mathematics: Number System",
             "file": "10",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus dignissimos fugiat magni"
         }
