@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 .footer {
     padding: 2.5rem 0;
     color: #999;
