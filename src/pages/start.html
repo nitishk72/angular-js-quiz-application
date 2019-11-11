@@ -1,23 +1,48 @@
+<style>
+    [data='true'] {
+        background: blue !important;
+    }
+
+    [data='invalid'] {
+        background: red !important;
+    }
+</style>
 <div class="container mt-4">
     <div class="row">
         <div class="col-sm-3">
             <p>Physics Quiz</p>
             <h5 id="timer">Timer : 15:00</h5>
+            <button class="btn btn-primary" ng-click="showAnswers = true">
+                validate
+            </button>
         </div>
         <div class="col-sm-9">
 
             <div class="row">
                 <!-- Question 1 -->
                 <div class="col-sm-12 mb-2" ng-repeat="(key,value) in questionResponse['response']">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card ">
+
+                        <div class="card-body" data="users[key]['valid']">
+
+                            <div ng-if="showAnswers" class="mb-2">
+                                <div ng-if="users[key]['valid'] == 'false'">
+                                    ❌, Correct answer is {{value.correct}}
+                                </div>
+                                <div ng-if="users[key]['valid'] == 'true'">
+                                    ✔, you selected correct option
+                                </div>
+                                <div ng-if="users[key]['valid'] == undefined">
+                                    ❓, Correct answer is {{value.correct}}
+                                </div>
+                            </div>
                             <div>
                                 <b>{{key+1}}: </b> {{value.question}}
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="question{{key}}Option"
                                     value="option1" id="question{{key}}Option1"
-                                    ng-click="validate(key, 'a',value.correct)">
+                                    ng-click="validate(key, 'a',value.correct)" ng-disabled="showAnswers">
                                 <label class="form-check-label" for="question{{key}}Option1">
                                     A. {{value.a}}
                                 </label>
@@ -25,7 +50,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="question{{key}}Option"
                                     value="option2" id="question{{key}}Option2"
-                                    ng-click="validate(key, 'b',value.correct)">
+                                    ng-click="validate(key, 'b',value.correct)" ng-disabled="showAnswers">
                                 <label class="form-check-label" for="question{{key}}Option2">
                                     B. {{value.b}}
                                 </label>
@@ -33,7 +58,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="question{{key}}Option"
                                     value="option3" id="question{{key}}Option3"
-                                    ng-click="validate(key, 'c',value.correct)">
+                                    ng-click="validate(key, 'c',value.correct)" ng-disabled="showAnswers">
                                 <label class="form-check-label" for="question{{key}}Option3">
                                     C. {{value.c}}
                                 </label>
@@ -41,7 +66,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="question{{key}}Option"
                                     value="option4" id="question{{key}}Option4"
-                                    ng-click="validate(key, 'd',value.correct)">
+                                    ng-click="validate(key, 'd',value.correct)" ng-disabled="showAnswers">
                                 <label class="form-check-label" for="question{{key}}Option4">
                                     D. {{value.d}}
                                 </label>
@@ -49,12 +74,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    
+
 </script>

@@ -51,13 +51,20 @@ app.controller("allQuizController", function ($scope, $routeParams, $http) {
 
 app.controller("quizController", ['$scope', '$routeParams', '$http',
     function ($scope, $routeParams, $http) {
+        $scope.users = {};
+        $scope.showAnswers = false;
         $scope.questionResponse = [];
         $http.get(`./assets/json/quiz/${$routeParams.quizID}.json`)
             .then(function (data) {
                 $scope.questionResponse = data.data;
             });
         $scope.validate = function (key, option, correct) {
-            console.log({ key, option, correct })
+            valid = option == correct ? "true" : "false";
+            $scope.users[key] = { userResponse: option, correct, valid };
+            console.log({ key, option, correct });
+        }
+        $scope.show = function () {
+            $scope.showAnswers = true;
         }
     }]
 );
